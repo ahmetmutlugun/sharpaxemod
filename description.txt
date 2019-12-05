@@ -1,0 +1,41 @@
+There are lots of incomplete and buggy items, so don't expect too much. I am working on it.
+A mod (obviously) made by sharpaxe. 
+
+Currently adds 2 axes, 2 guns, 4 swords and 2 special projectiles.
+
+Sadly I didn't have time to fix the crafting methods for these items so they will be inaccessible/have random recipes for a while. 
+
+Next update should release on 4/28/2019
+
+Form this point on I will be working weekly.
+
+=====UPCOMING CHANGES=====
+Balanced recipes for all weapons
+Balanced weapon damage 
+Collusion animation for new projectiles
+Many bug fixes
+
+
+=====UPDATE 0.2.1 Squishing Bugs=====
+NOTE: There are still tons of bugs, instead of adding anything else I will be fixing them in the next couple of weeks.
+Weapon Changes:
+Fire and Ice Blaster now shoots 2 times slower.
+Fire and Ice Blaste now deals much less damage
+Added new recipe for Fire and Ice Blaster
+Bloody Axe now has a revamped sprite
+Bloody Axe now has a recipe
+
+Bug Fixes:
+Fixed Bloody Axe's display name
+Fire and Ice Blaster is no longer called burst rifle
+Ice Sword is now smaller
+Fire on Ice projectiles no longer go trough walls
+Fire on Ice projectile now faces the right way when shot
+
+=====UPDATE 0.2.0 Return of the Developer=====
+Added Fire and Ice Blaster and projectile
+Added a new axe
+Added mod icon
+Fixed problems with burst rifle
+
+Last update: 4/23/2019

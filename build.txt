@@ -1,0 +1,9 @@
+author = SharpAxe
+version = 0.2.1
+displayName = SharpAxe's Mod
+homepage = 
+hideCode = true
+hideResources = true
+includeSource = false
+buildIgnore = *.user, obj\*, bin\*, .vs\* includePDB = true
+includePDB = true
