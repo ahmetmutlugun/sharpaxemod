@@ -37,10 +37,10 @@ namespace sharpaxemod.Items
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.YellowPhasesaber, 1); // item needed to craft, how much of that item u need
-            recipe.AddIngredient(ItemID.AncientBattleArmorMaterial, 1); // item needed to craft, how much of that item u need
+            recipe.AddIngredient(ItemID.YellowPhasesaber, 1); /
+            recipe.AddIngredient(ItemID.AncientBattleArmorMaterial, 1);
             recipe.AddIngredient(ItemID.SandBlock, 20);
-            recipe.AddTile(TileID.DemonAltar); //crafting table
+            recipe.AddTile(TileID.DemonAltar); iu
             recipe.SetResult(this);
             recipe.AddRecipe();
         }
@@ -55,7 +55,6 @@ namespace sharpaxemod.Items
 
 
         		}
-        		// Addtional if statements here if you would like to add drops to other vanilla npc.
         	}
         }
     }
