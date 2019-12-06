@@ -9,7 +9,7 @@ namespace sharpaxemod.Items
 	{
 		public override void SetStaticDefaults() {
 			DisplayName.SetDefault("Bloody Axe");
-			Tooltip.SetDefault("This is a modded hamaxe.");
+			Tooltip.SetDefault("...");
 		}
 
 		public override void SetDefaults() {
@@ -33,7 +33,7 @@ namespace sharpaxemod.Items
 		public override void AddRecipes() {
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.HallowedBar, 22);
-			recipe.AddIngredient(ItemID.BloodyMachete, 22);
+			recipe.AddIngredient(ItemID.BloodyMachete, 1);
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

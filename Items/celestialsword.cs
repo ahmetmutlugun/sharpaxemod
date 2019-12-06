@@ -30,7 +30,8 @@ namespace sharpaxemod.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.ChlorophyteOre, 100);
+			recipe.AddIngredient(ItemID.AdamantiteBar, 50);
+			recipe.AddIngredient(ItemID.TitaniumBar, 50);
 			recipe.AddTile(TileID.MythrilAnvil);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

@@ -8,7 +8,7 @@ namespace sharpaxemod.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Jungle Blade");
-			Tooltip.SetDefault("One day, Dasani said, spammer.  Didn't get the joke? Too bad.");
+			Tooltip.SetDefault("A powerful sword forged with emeralds in a powerful altar.");
 		}
 		public override void SetDefaults()
 		{
@@ -32,8 +32,9 @@ namespace sharpaxemod.Items
 		{
 			ModRecipe recipe = new ModRecipe(mod);
 			recipe.AddIngredient(ItemID.BladeofGrass, 1);
-			recipe.AddIngredient(ItemID.Emerald, 10);
-			recipe.AddIngredient(ItemID.JungleSpores, 10);
+			recipe.AddIngredient(ItemID.Emerald, 15);
+			recipe.AddIngredient(ItemID.JungleSpores, 15);
+			recipe.AddIngredient(ItemID.Stinger, 15);
 			recipe.AddTile(TileID.DemonAltar);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

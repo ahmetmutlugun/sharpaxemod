@@ -22,7 +22,7 @@ namespace sharpaxemod.Items
 			item.useTime = 6;
 			item.useAnimation = 18;
 			item.useStyle = 5;
-			item.noMelee = true; 
+			item.noMelee = true;
 			item.knockBack = 4;
 			item.value = 10000;
 			item.rare = 2;
@@ -39,6 +39,7 @@ namespace sharpaxemod.Items
 			ModRecipe recipe = new ModRecipe(mod);
             			recipe.AddIngredient(ItemID.ShroomiteBar, 20);
 									recipe.AddIngredient(ItemID.HellstoneBar, 40);
+									recipe.AddIngredient(ItemID.SnowballCannon, 1);
             			recipe.AddTile(TileID.MythrilAnvil);
             			recipe.SetResult(this);
             			recipe.AddRecipe();

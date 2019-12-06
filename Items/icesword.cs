@@ -12,7 +12,7 @@ namespace sharpaxemod.Items
         public override void SetStaticDefaults()
         {
             DisplayName.SetDefault("Ice Sword");
-            Tooltip.SetDefault("Has healing and frostburn capabilities."); //you can put anything you want between "s
+            Tooltip.SetDefault("No one can heal themselves by wounding others. Or can they?");
         }
         public override void SetDefaults()
         {
@@ -32,17 +32,6 @@ namespace sharpaxemod.Items
             item.useTurn = true;
             item.shoot = mod.ProjectileType("pro1");
             item.shootSpeed = 10f;
-        }
-
-        public override void AddRecipes()
-        {
-            ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(ItemID.YellowPhasesaber, 1); /
-            recipe.AddIngredient(ItemID.AncientBattleArmorMaterial, 1);
-            recipe.AddIngredient(ItemID.SandBlock, 20);
-            recipe.AddTile(TileID.DemonAltar); iu
-            recipe.SetResult(this);
-            recipe.AddRecipe();
         }
         class MyGlobalNPC : GlobalNPC
         {

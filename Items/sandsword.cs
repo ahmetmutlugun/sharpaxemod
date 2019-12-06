@@ -12,7 +12,7 @@ namespace sharpaxemod.Items
         }
         public override void SetDefaults()
         {
-            item.damage = 45;
+            item.damage = 50;
             item.melee = true;
             item.width = 100;
             item.height = 100;
@@ -32,9 +32,9 @@ namespace sharpaxemod.Items
         {
             ModRecipe recipe = new ModRecipe(mod);
             recipe.AddIngredient(ItemID.YellowPhasesaber, 1);
-            recipe.AddIngredient(ItemID.AncientBattleArmorMaterial, 1); 
-            recipe.AddIngredient(ItemID.SandBlock, 20);
-            recipe.AddTile(TileID.DemonAltar);
+            recipe.AddIngredient(ItemID.AncientBattleArmorMaterial, 1);
+            recipe.AddIngredient(ItemID.SandBlock, 50);
+            recipe.AddTile(TileID.MythrilAnvil);
             recipe.SetResult(this);
             recipe.AddRecipe();
         }

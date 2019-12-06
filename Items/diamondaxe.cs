@@ -31,7 +31,7 @@ namespace sharpaxemod.Items
 		public override void AddRecipes()
 		{
 			ModRecipe recipe = new ModRecipe(mod);
-			recipe.AddIngredient(ItemID.Diamond, 182);
+			recipe.AddIngredient(ItemID.Diamond, 50);
 			recipe.AddTile(TileID.Anvils);
 			recipe.SetResult(this);
 			recipe.AddRecipe();

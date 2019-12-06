@@ -1,5 +1,4 @@
-There are lots of incomplete and buggy items, so don't expect too much. I am working on it.
-A mod (obviously) made by sharpaxe.
+A mod made by sharpaxe (obviously).
 
 Currently adds 2 axes, 2 guns, 4 swords and 2 special projectiles.
 
@@ -7,7 +6,7 @@ Sadly I didn't have time to fix the crafting methods for these items so they wil
 
 Next update should release in 2020
 
-I finally fixed my tModLoader so I can develop on my Mac, should make things a lot faster.
+I finally fixed my tModLoader so I can develop on my Mac, should make things a lot faster. (December 2019)
 
 =====UPCOMING CHANGES=====
 Balanced recipes for all weapons
@@ -15,13 +14,28 @@ Balanced weapon damage
 Collusion animation for new projectiles
 Many bug fixes
 
+
+
 =====UPDATE 0.2.2====
+Changes:
+Fire and Ice Blaster now has inaccuracy
+Sand Sword now uses hard-mode anvils instead of a demon altar to craft.
+Sand Sword deals +5 damage
+Sand Sword requires 30 more sand to craft
+Jungle Blade is now more expensive
 File size significantly reduced
-Optimized some items
+Diamond axe is now cheaper to make
+Celestial Sword can now be made with titanium and it is cheaper.
+
+Bug Fixes:
+Removed temporary recipe for Ice sword
+Bloody Axe is now craft-able
+
+Other:
 Removed burst rifle
+Small balance changes to make all weapons fit in place
 
 =====UPDATE 0.2.1 Squishing Bugs=====
-NOTE: There are still tons of bugs, instead of adding anything else I will be fixing them in the next couple of weeks.
 Weapon Changes:
 Fire and Ice Blaster now shoots 2 times slower.
 Fire and Ice Blaster now deals much less damage
@@ -41,5 +55,3 @@ Added Fire and Ice Blaster and projectile
 Added a new axe
 Added mod icon
 Fixed problems with burst rifle
-
-Last update: 4/23/2019
