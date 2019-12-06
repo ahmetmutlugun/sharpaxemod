@@ -18,7 +18,7 @@ namespace sharpaxemod.Projectiles
             projectile.tileCollide = false;
             projectile.penetrate = 3;
             projectile.timeLeft = 700;
-            projectile.light = 0.2f;    
+            projectile.light = 0.2f;
             projectile.extraUpdates = 1;
             projectile.ignoreWater = true;
         }
@@ -37,8 +37,8 @@ namespace sharpaxemod.Projectiles
                     }
                     else if (rand == 1)
                     {
-                        owner.statLife += 5; //+5 Health
-        				owner.HealEffect(5, true); //shows heal
+                        owner.statLife += 3; //+5 Health
+        				owner.HealEffect(3, true); //shows heal
                     }
 
                 }

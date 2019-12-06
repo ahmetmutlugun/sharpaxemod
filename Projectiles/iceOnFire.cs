@@ -11,7 +11,7 @@ namespace sharpaxemod.Projectiles
         public override void SetDefaults()
         {
 
-            projectile.width = 16;       
+            projectile.width = 16;
             projectile.height = 16;
             projectile.friendly = true;
             projectile.melee = true;
@@ -38,8 +38,9 @@ namespace sharpaxemod.Projectiles
                     }
                     else if (rand == 1)
                     {
-                        owner.statLife += 10; //Gives Health
-        				owner.HealEffect(10, true); //Show sheal
+                        int healAmount = Main.rand.Next(3);
+                        owner.statLife += healAmount+2; //Gives Health
+        				owner.HealEffect(healAmount+2, true); //Show sheal
                     }
 
                 }

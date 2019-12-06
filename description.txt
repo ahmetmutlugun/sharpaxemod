@@ -26,6 +26,8 @@ Jungle Blade is now more expensive
 File size significantly reduced
 Diamond axe is now cheaper to make
 Celestial Sword can now be made with titanium and it is cheaper.
+Ice on Fire projectiles give between 2 to 4 hp instead of 10 hp. 
+Ice Sword only heals 3 instead of 5 hp
 
 Bug Fixes:
 Removed temporary recipe for Ice sword
