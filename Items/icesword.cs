@@ -30,7 +30,7 @@ namespace sharpaxemod.Items
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
             item.useTurn = true;
-            item.shoot = mod.ProjectileType("pro1");
+            item.shoot = mod.ProjectileType("iceCross");
             item.shootSpeed = 5f;
         }
         class MyGlobalNPC : GlobalNPC

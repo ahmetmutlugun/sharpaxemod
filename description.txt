@@ -1,37 +1,39 @@
 A mod made by sharpaxe (obviously).
 
-Currently adds 2 axes, 2 guns, 4 swords and 2 special projectiles.
+Currently adds 2 axes, 1 gun, 4 swords and 2 special projectiles.
 
 I finally fixed my tModLoader so I can develop on my Mac, should make things a lot faster. (December 2019)
 
-=====UPCOMING CHANGES=====
+======UPCOMING CHANGES======
 Balanced recipes for all weapons
 Balanced weapon damage
 Collusion animation for new projectiles
 Many bug fixes
 
-=====UPDATE 0.2.2 Weapon Balance====
+======UPDATE 0.2.2 Weapon Balance=====
 Changes:
 Fire and Ice Blaster now has inaccuracy
-Sand Sword now uses hard-mode anvils instead of a demon altar to craft.
-Sand Sword deals +5 damage
-Sand Sword requires 30 more sand to craft
+Sand Sword has a more expensive recipe
+Sand Sword deals more damage
 Jungle Blade is now more expensive
-File size significantly reduced
 Diamond axe is now cheaper to make
-Celestial Sword can now be made with titanium and it is cheaper.
-Ice on Fire projectiles give between 2 to 4 hp instead of 10 hp.
-Ice Sword only heals 3 instead of 5 hp
+Celestial Sword can now be made with titanium and is cheaper.
+Ice on Fire projectiles give less hp
+Ice Sword gives less hp
+Fixed sword animations
+Ice Sword is now slower
+Ice Sword projectiles now have a much smaller hit-box, have dust animations and rotate.
 
 Bug Fixes:
 Removed temporary recipe for Ice sword
-Bloody Axe is now craft-able
+Bloody Axe is now craft-able and cheaper
 
 Other:
 Removed burst rifle
 Small balance changes to make all weapons fit in place
+File size significantly reduced
 
-=====UPDATE 0.2.1 Squishing Bugs=====
+======UPDATE 0.2.1 Squishing Bugs======
 Weapon Changes:
 Fire and Ice Blaster now shoots 2 times slower.
 Fire and Ice Blaster now deals much less damage
@@ -45,8 +47,3 @@ Fire and Ice Blaster is no longer called burst rifle
 Ice Sword is now smaller
 Fire on Ice projectiles no longer go trough walls
 Fire on Ice projectile now faces the right way when shot
-
-=====UPDATE 0.2.0 Return=====
-Added Fire and Ice Blaster and its special projectile
-Added Bloody Axe
-Added mod icon
