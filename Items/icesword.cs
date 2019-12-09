@@ -18,10 +18,10 @@ namespace sharpaxemod.Items
         {
             item.damage = 100;
             item.melee = true;
-            item.width = 70;
-            item.height = 70;
-            item.useTime = 15;
-            item.useAnimation = 15;
+            item.width = 50;
+            item.height = 50;
+            item.useTime = 25;
+            item.useAnimation = 25;
             item.useStyle = 1;
             item.knockBack = 8;
             item.crit = 5;
@@ -31,7 +31,7 @@ namespace sharpaxemod.Items
             item.autoReuse = true;
             item.useTurn = true;
             item.shoot = mod.ProjectileType("pro1");
-            item.shootSpeed = 10f;
+            item.shootSpeed = 5f;
         }
         class MyGlobalNPC : GlobalNPC
         {
@@ -46,5 +46,6 @@ namespace sharpaxemod.Items
         		}
         	}
         }
+
     }
 }
