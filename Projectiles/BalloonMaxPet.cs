@@ -16,13 +16,20 @@ namespace sharpaxemod.Projectiles
 			projectile.timeLeft *= 5;
 			projectile.friendly = true;
 			projectile.ignoreWater = true;
-			projectile.scale = 0.8f;
+			projectile.scale = 2f;
 			projectile.tileCollide = false;
 		}
 
 		public override void SetDefaults() {
-			projectile.CloneDefaults(ProjectileID.ZephyrFish);
-			aiType = ProjectileID.ZephyrFish;
+			projectile.width = 30;
+			projectile.height = 30;
+			projectile.penetrate = -1;
+			projectile.netImportant = true;
+			projectile.timeLeft *= 5;
+			projectile.friendly = true;
+			projectile.ignoreWater = true;
+			projectile.scale = 0.8f;
+			projectile.tileCollide = false;
 		}
 
 		private const int fadeInTicks = 30;
@@ -56,8 +63,7 @@ namespace sharpaxemod.Projectiles
 					}
 				}
 			}
-			projectile.rotation += projectile.velocity.X / 20f;
-			Lighting.AddLight(projectile.Center, (255 - projectile.alpha) * 0.9f / 255f, (255 - projectile.alpha) * 0.1f / 255f, (255 - projectile.alpha) * 0.3f / 255f);
+			Lighting.AddLight(projectile.Center, (255 - projectile.alpha) * 0.1f / 255f, (255 - projectile.alpha) * 0.1f / 255f, (255 - projectile.alpha) * 0.9f / 255f);
 			if (projectile.velocity.Length() > 1f) {
 				projectile.velocity *= .98f;
 			}
