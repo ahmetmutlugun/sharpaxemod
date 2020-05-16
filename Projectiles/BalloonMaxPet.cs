@@ -25,11 +25,11 @@ namespace sharpaxemod.Projectiles
 
 		public override void AI() {
 			Player player = Main.player[projectile.owner];
-			ExamplePlayer modPlayer = player.GetModPlayer<ExamplePlayer>();
+			ModedPlayer modPlayer = player.GetModPlayer<ModedPlayer>();
 			if (player.dead) {
-				modPlayer.examplePet = false;
+				modPlayer.BalloonMaxPet = false;
 			}
-			if (modPlayer.examplePet) {
+			if (modPlayer.BalloonMaxPet) {
 				projectile.timeLeft = 2;
 			}
 		}
