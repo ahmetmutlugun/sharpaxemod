@@ -8,16 +8,25 @@ namespace sharpaxemod.Items
 	public class BubbleWrap : ModItem
 	{
 		public override void SetStaticDefaults() {
-			// DisplayName and Tooltip are automatically set from the .lang files, but below is how it is done normally.
-			// DisplayName.SetDefault("Paper Airplane");
-			// Tooltip.SetDefault("Summons a Paper Airplane to follow aimlessly behind you");
+			DisplayName.SetDefault("Annoying Light");
+			Tooltip.SetDefault("Summons an annoying light");
 		}
 
 		public override void SetDefaults() {
-			item.CloneDefaults(ItemID.ZephyrFish);
+			item.damage = 0;
+			item.useStyle = ItemUseStyleID.SwingThrow;
 			item.shoot = ProjectileType<Projectiles.BalloonMaxPet>();
+			item.width = 16;
+			item.height = 30;
+			item.UseSound = SoundID.Item2;
+			item.useAnimation = 20;
+			item.useTime = 20;
+			item.rare = ItemRarityID.Yellow;
+			item.noMelee = true;
+			item.value = Item.sellPrice(0, 5, 50, 0);
 			item.buffType = BuffType<Buffs.BalloonMaxBuff>();
 		}
+
 
 		// public override void AddRecipes() {
 		// 	// ModRecipe recipe = new ModRecipe(mod);
