@@ -14,8 +14,8 @@ namespace sharpaxemod.Items
         {
             item.damage = 50;
             item.melee = true;
-            item.width = 100;
-            item.height = 100;
+            item.width = 80;
+            item.height = 84;
             item.useTime = 15;
             item.useAnimation = 15;
             item.useStyle = 1;

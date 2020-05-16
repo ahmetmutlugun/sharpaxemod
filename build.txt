@@ -1,7 +1,7 @@
 author = SharpAxe
-version = 0.2.1
+version = 0.2.2
 displayName = SharpAxe's Mod
-homepage = 
+homepage =
 hideCode = true
 hideResources = true
 includeSource = false

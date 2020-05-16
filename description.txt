@@ -10,28 +10,18 @@ Balanced weapon damage
 Collusion animation for new projectiles
 Many bug fixes
 
-======UPDATE 0.2.2 Weapon Balance=====
-Changes:
+======UPDATE 0.2.2=====
 Fire and Ice Blaster now has inaccuracy
-Sand Sword has a more expensive recipe
-Sand Sword deals more damage
 Jungle Blade is now more expensive
-Diamond axe is now cheaper to make
-Celestial Sword can now be made with titanium and is cheaper.
-Ice on Fire projectiles give less hp
-Ice Sword gives less hp
-Fixed sword animations
-Ice Sword is now slower
-Ice Sword projectiles now have a much smaller hit-box, have dust animations and rotate.
-
-Bug Fixes:
-Removed temporary recipe for Ice sword
-Bloody Axe is now craft-able and cheaper
-
-Other:
+Diamond axe is now cheaper
+Celestial Sword is cheaper
+Ice on Fire nerfed
+Ice Sword nerfed
+Ice projectile updated texture
+Sand Sword updated texture and balance
 Removed burst rifle
-Small balance changes to make all weapons fit in place
-File size significantly reduced
+Many bug fixes
+
 
 ======UPDATE 0.2.1 Squishing Bugs======
 Weapon Changes:

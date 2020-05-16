@@ -8,16 +8,16 @@ namespace sharpaxemod.Items
 		public override void SetStaticDefaults()
 		{
 			DisplayName.SetDefault("Jungle Blade");
-			Tooltip.SetDefault("A powerful sword forged with emeralds in a powerful altar.");
+			Tooltip.SetDefault("A fuse of rare emeralds with the spirit of the vast jungle.");
 		}
 		public override void SetDefaults()
 		{
 			item.damage = 30;
 			item.melee = true;
-			item.width = 100;
-			item.height = 100;
-			item.useTime = 15;
-			item.useAnimation = 15;
+			item.width = 82;
+			item.height = 102;
+			item.useTime = 14;
+			item.useAnimation = 14;
 			item.useStyle = 1;
 			item.knockBack = 5;
 			item.crit = 5;
